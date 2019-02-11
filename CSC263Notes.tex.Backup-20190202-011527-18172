@@ -1,0 +1,47 @@
+%&latex
+\documentclass{article}
+
+\begin{document}
+
+%+Title
+\title{\textbf{Data Structure And Analysis} \\(CSC263)\\Lecture Notes}
+\author{Tianquan Di}
+\date{\today}
+\maketitle
+%-Title
+
+%+Abstract
+\begin{abstract}
+    \textbf{Why do we need to learn data structures? }This course helps you to explore a new perspective on the algorithm analysis, in the field of Computer Science. CSC263 will also provide you the foundation of technical interviews from your dream tech companies, such as Microsoft, Google, etc. This lecture notes will primarily follow Prof. Sam Toueg's lecture, as well as CLRS. According to Prof. Sam Toueg's description of the course: \quote{Data structures are ways of organizing the data involved in computation, suitable for representation in and manipulation by computers. Algorithms are precisely stated, general problem solving methods. Data structures and algorithms are central to computer science. They are also integrally related: neither can be studied fruitfully without knowledge of the other. This course has two goals: First, to learn several important data structures and algorithms, including how to choose and/or modify a data structure to solve various problems; and second, to introduce the basic tools and techniques for the analysis of algorithms and data structures.}
+
+\begin{center}Course Website: http://www.cs.toronto.edu/~sam/teaching/263/
+
+Textbook: Introduction to Algorithms (i.e. CLRS)
+
+This document assumes that you have the knowledge provided from CSC165 and CSC236.
+\end{center}
+
+
+\end{abstract}
+%-Abstract
+
+%+Contents
+\tableofcontents
+%-Contents
+
+\section{Review of Growth of Functions}
+
+
+\subsection{}
+
+
+%+Bibliography
+\begin{thebibliography}{99}
+\bibitem{Label1} Intrudiction to Algorithms (CLRS)
+\bibitem{Label2} http://www.cs.toronto.edu/~sam/teaching/263/
+\end{thebibliography}
+%-Bibliography
+
+\end{document}
+
+

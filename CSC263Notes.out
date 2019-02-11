@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Review of Growth of Functions}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Asymptotic bounds on worst-case time complexity}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Priority Queues \046 Heaps}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Abstract Data Type \(ADT\) vs. Data Structure}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{The Priority Queue ADT}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Heaps}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Mergeable Priority Queue ADT and Binomial Heaps}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.5}{Implementation of operations on Binomial Heaps}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Dictionary （I: AVL Trees}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Abstract Data Type: Dictionary}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{AVL Trees: Intro}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{AVL Trees: Insert Operation}{section.3}% 12
+

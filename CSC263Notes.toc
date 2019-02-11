@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Review of Growth of Functions}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Asymptotic bounds on worst-case time complexity}{4}{subsection.1.1}
+\contentsline {paragraph}{To prove that $T(n)$ is $O(g(n))$:}{4}{section*.2}
+\contentsline {paragraph}{To prove that $T(n)$ is $\Omega (g(n))$:}{4}{section*.3}
+\contentsline {paragraph}{To prove that $T(n)$ is $\Theta (g(n))$:}{4}{section*.4}
+\contentsline {section}{\numberline {2}Priority Queues \& Heaps}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Abstract Data Type (ADT) vs. Data Structure}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}The Priority Queue ADT}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Heaps}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Mergeable Priority Queue ADT and Binomial Heaps}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Implementation of operations on Binomial Heaps}{9}{subsection.2.5}
+\contentsline {paragraph}{Union(T, Q): }{9}{section*.5}
+\contentsline {paragraph}{To analyze the worst-case time complexity of Union: }{9}{section*.6}
+\contentsline {paragraph}{Insert(T, x): }{9}{section*.7}
+\contentsline {paragraph}{Min(T):}{9}{section*.8}
+\contentsline {section}{\numberline {3}Dictionary （I: AVL Trees}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Abstract Data Type: Dictionary}{10}{subsection.3.1}
+\contentsline {paragraph}{Object: }{10}{section*.9}
+\contentsline {paragraph}{Operations: }{10}{section*.10}
+\contentsline {subsection}{\numberline {3.2}AVL Trees: Intro}{10}{subsection.3.2}
+\contentsline {paragraph}{Balanced BST: }{10}{section*.11}
+\contentsline {paragraph}{AVL Trees: }{10}{section*.12}
+\contentsline {paragraph}{Balance Factor(BF) of a node v in AVL Trees: }{10}{section*.13}
+\contentsline {paragraph}{Properties of AVL Trees: }{11}{section*.14}
+\contentsline {subsection}{\numberline {3.3}AVL Trees: Insert Operation}{11}{subsection.3.3}
+\contentsline {paragraph}{General Idea: }{11}{section*.15}
+

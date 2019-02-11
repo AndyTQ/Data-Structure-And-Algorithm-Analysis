@@ -1,0 +1,79 @@
+%&latex
+\documentclass{article}
+\usepackage{amstext}
+\usepackage{graphicx}
+\usepackage{amsbsy}
+\usepackage{algorithm}
+
+\begin{document}
+
+%+Title
+
+\title{\textbf{Data Structure And Analysis} \\(CSC263)\\Lecture Notes}
+\author{Tianquan Di}
+\date{\today}
+\maketitle
+%-Title
+\includegraphics{image003.png}
+
+\newpage
+%+Abstract
+\begin{abstract}
+    \textbf{Why do we need to learn data structures? }This course helps you to explore a new perspective on the algorithm analysis, in the field of Computer Science. CSC263 will also provide you the foundation of technical interviews from your dream tech companies, such as Microsoft, Google, etc. This lecture notes will primarily follow Prof. Sam Toueg's lecture, as well as CLRS. According to Prof. Sam Toueg's description of the course: \quote{Data structures are ways of organizing the data involved in computation, suitable for representation in and manipulation by computers. Algorithms are precisely stated, general problem solving methods. Data structures and algorithms are central to computer science. They are also integrally related: neither can be studied fruitfully without knowledge of the other. This course has two goals: First, to learn several important data structures and algorithms, including how to choose and/or modify a data structure to solve various problems; and second, to introduce the basic tools and techniques for the analysis of algorithms and data structures.}
+
+\begin{center}Course Website: http://www.cs.toronto.edu/~sam/teaching/263/
+
+Textbook: Introduction to Algorithms (i.e. CLRS)
+
+This document assumes that you have the knowledge provided from CSC165 and CSC236.
+\end{center}
+
+
+\end{abstract}
+%-Abstract
+
+\newpage
+%+Contents
+\tableofcontents
+%-Contents
+
+\newpage
+\section{Review of Growth of Functions}
+\subsection{Asymptotic bounds on worst-case time complexity}
+\includegraphics{image001.png}
+Let $t(x)$ be the number of steps taken by algorithm $\mathcal{A}$ on the input $x$.\\
+Let $T(n)$ be the $worst-case$ time complexity of algorithm $\mathcal{A}$.
+Then:
+\begin{center}$T(n) = \max_{\textbf{all inputs $x$ of size $n$}} t(x) = \max\{t(x) : x \text{ is an input of size }n\}$\end{center}
+\textbf{To prove that $T(n)$ is $O(g(n))$}, we must show that:\\
+$$\exists c >\ 0, \exists n_0 > 0, \forall n > n_0 : T(n) \leq c \cdot g(n)$$
+The above statement is equivalent to: \\
+$\Leftrightarrow$ max \{$t(x) : $ $x$ is an input of size $n$\} $\leq$ $c \cdot g(n)$ 
+\\
+$\Leftrightarrow$ For \textbf{every} input $x$ of size $n$, $t(x) \leq c \cdot g(n)$
+\\
+$\Leftrightarrow$ For \textbf{every} input of size $n$, $\mathcal{A}$ takes \textit{\textbf{at most}} $c \cdot g(n)$ steps.
+\textbf{\\ To prove that $T(n)$ is $\Omega(g(n))$}, we must show that: 
+$$\exists c >\ 0, \exists n_0 > 0, \forall n > n_0 : T(n) \geq c \cdot g(n)$$
+The above statement is equivalent to: \\
+$\Leftrightarrow$ max \{$t(x) : $ $x$ is an input of size $n$\} $\geq$ $c \cdot g(n)$ 
+\\
+$\Leftrightarrow$ For \textbf{some} input $x$ of size $n$, $t(x) \geq c \cdot g(n)$
+\\
+$\Leftrightarrow$ For \textbf{some} input of size $n$, $\mathcal{A}$ takes \textit{\textbf{at least}} $c \cdot g(n)$ steps.
+\textbf{\\ To prove that $T(n)$ is $\Theta(g(n)),$} we must show that:
+$$\text{$T(n)$ is $O(g(n))$ \textbf{and} $T(n)$ is $\Omega{(g(n))}$}$$
+For example, the worst-case time complexity for bubble sort is $\Theta(n^2)$. This means that bubble sort is both $O(n^2)$ and $\Omega(n^2)$. Since bubble sort is $O(n^2)$, for \textbf{every} input of size n, the algorithm takes\textit{ \textbf{at most}} $c_1 \cdot n^2$ steps. Since bubble sort is $\Theta(n^2)$, this means that for \textbf{some} in put of size n, the algorithm takes \textbf{\textit{at least}} $c_2 \cdot n^2$ steps.
+
+
+\newpage
+%+Bibliography
+\begin{thebibliography}{99}
+\bibitem{Label1} Intrudiction to Algorithms (CLRS)
+\bibitem{Label2} http://www.cs.toronto.edu/~sam/teaching/263/
+\end{thebibliography}
+%-Bibliography
+
+\end{document}
+
+
