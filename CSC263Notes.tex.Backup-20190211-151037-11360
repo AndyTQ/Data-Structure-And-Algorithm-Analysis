@@ -17,7 +17,7 @@
 
 %+Title
 
-\title{\textbf{bbbbbbbbbbbbbbbbbbData Structure And Analysis} \\(CSC263)\\Lecture Notes}
+\title{\textbf{Data Structure And Analysis} \\(CSC263)\\Lecture Notes}
 \author{Tianquan Di}
 \date{\today}
 \maketitle
@@ -286,7 +286,6 @@ Symmetric to above case.
 \end{itemize}
 \paragraph{Exercise: How to implement Delete and Search?}
 \subsection{Augmentation of AVL Trees}
-Coming Soon...
 \section{Randomized Algorithms}
 You want an algorithm that haves well for \textbf{every possible input.}
 

@@ -10,4 +10,7 @@
 \BOOKMARK [2][-]{subsection.3.1}{Abstract Data Type: Dictionary}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.2}{AVL Trees: Intro}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.3}{AVL Trees: Insert Operation}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Augmentation of AVL Trees}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Randomized Algorithms}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Randomized QuickSort Algorithm \(RQS\)}{section.4}% 15
 
